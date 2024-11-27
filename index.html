@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (orientation:portrait)
+        {
+            .div1{
+                border: 2px solid red;
+                background-color: black;
+                padding: 25px;
+
+            }
+        }
+        @media screen and (orientation:landscape)
+        {
+            .div1{
+                border: 2px solid blue;
+                padding: 25px;
+                background-color: black;
+
+            }
+        }
+        img{
+            height: 150px;
+            width: 250px;
+        }
+        .div1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 25px;
+            gap: 20px;
+            overflow: scroll;
+        }
+        @media screen and (min-width:0px) and (max-width:475px)
+        {
+            .div1{
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            
+        }
+        .div1 div{
+            
+            gap: 10px;
+            border: 2px solid green;
+            
+        }
+        .p{background-color: black;
+        text-align: center;}
+        p{
+            color: white;
+        }
+        .para{
+            height: 100px;
+            overflow: auto;
+        }
+        img{
+            margin-left: 20px;
+        }
+        .cd{
+            width: 300px;
+        }
+        .kws{
+            height: 100px;
+            overflow: auto;
+        }
+        .pul{
+            height: 100px;
+            overflow: auto;
+        }
+        .id{
+            width: 300px;
+        }
+        .pd{
+            width: 300px;
+        }
+        ::-webkit-scrollbar{
+            overflow: hidden;
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body><div class="div1">
+    <div class="cd"><div><img class="i1" src="/webimages/bmw.webp" alt="bmw"></div>
+        <div class="p"><p>B M W</p></div>
+        <div class="para" ><p>Design
+            BMW bikes are known for their modern design, straight-lined frames, and subtle branding. 
+            Comfort
+            BMW bikes are designed to be comfortable and easy to handle, with ergonomic features like upright riding positions and adjustable seat heights. 
+            Safety
+            Many BMW bikes have modern safety features like ABS and traction control</p></div>
+    </div>
+    <div class="id"><div><img class="i2" src="/webimages/kawasaki.webp" alt="Bike"></div><div class="p"><p>Kawasaki</p></div><div class="kws"><p>Here are some things to know about Kawasaki motorcycles:
+        History
+        Kawasaki Heavy Industries started producing motorcycle engines in 1953, and the first complete Kawasaki motorcycle was produced in 1954. Kawasaki has produced many iconic motorcycles, including the 500SS Mach-III, Z1 (900 Super Four), Ninja (GPz900R), and the supercharged Ninja H2. 
+        Design philosophy
+        Kawasaki's design philosophy is called RIDEOLOGY, which stands for "Ride + Ideology". The philosophy is based on the idea that Kawasaki motorcycles should enrich the lives of people around the world. </p></div>
+</div>
+    <div class="pd"><div><img class="i3" src="/webimages/pulser.webp" alt="pulsar"></div>
+    <div class="p"><p>Pulsar</p></div><div class="pul"><p>Here's some information about Matter bikes and Pulsar bikes:
+        Matter bikes
+        Matter is a bike brand that offers models like the AERA and the Odysse. You can compare Matter bikes to other bikes based on factors like price, mileage, and performance. 
+        Bajaj Pulsar
+        The Bajaj Pulsar is a range of bikes produced by Bajaj Auto, an Indian two-wheeler manufacturer. The Pulsar is known for being a global sports motorcycle brand. Here are some things to know about the Bajaj Pulsa</p></div>
+    </div>
+</body>
+</html>
